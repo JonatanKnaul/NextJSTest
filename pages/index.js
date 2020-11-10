@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { View, Image } from 'react-native'
 
 const ImagesExample = () => (
-   <Image source = {{uri:'https://conexaoplaneta.com.br/wp-content/uploads/2018/10/filhotes-gamba-salvos-depois-mae-atropelada-conexao-planeta.jpg'}}
+   <Image source = {{uri:'https://pbs.twimg.com/profile_images/486929358120964097/gNLINY67_400x400.png'}}
    style = {{ width: 200, height: 200 }}
    />
 )

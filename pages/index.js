@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import { View, Image } from 'react-native'
+import React from 'react';
+import ImagesExample from './image_example.js'
 
-const ImagesExample = () => (
-   <Image source = {{uri:'https://pbs.twimg.com/profile_images/486929358120964097/gNLINY67_400x400.png'}}
-   style = {{ width: 200, height: 200 }}
-   />
-)
-export default ImagesExample
+const App = () => {
+   return (
+      <ImagesExample />
+   )
+}
+export default App
